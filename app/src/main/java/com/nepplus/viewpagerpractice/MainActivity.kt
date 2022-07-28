@@ -16,7 +16,12 @@ class MainActivity : AppCompatActivity() {
         mPagerAdpter = MainViewPagerAdapter(supportFragmentManager)
         mainViewPager.adapter = mPagerAdpter
 
-        tab.setupWithViewPager(mainViewPager)
+        //이건 탭 레이아웃을 쓰기 위해 넣어주는 것!!
+       tab.setupWithViewPager(mainViewPager)
 
     }
 }
+
+//뷰페이저 화면 좌우
+//탭 레이아웃 카테코리 칸 화면 좌우
+//프레그먼트 화면안에 화면

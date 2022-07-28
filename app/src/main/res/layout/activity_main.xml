@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--명칭 중요함!!!!-->
     <com.google.android.material.tabs.TabLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
